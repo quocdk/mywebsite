@@ -1,0 +1,145 @@
+nav {
+  background-color: midnightblue;
+  color: midnightblue;
+  padding: 10px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+.menu > a {
+  font-variant: small-caps;
+  color: white;
+  text-decoration: none;
+}
+.menu > a:visited {
+  color: lime;
+}
+.menu > a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.menu > a:active {
+  color: red;
+}
+
+aside {
+  background-color: navy;
+  border-radius: 5px;
+  float: left;
+  color: white;
+  padding: 15px;
+  line-height: 50px;
+  font-size: large;
+  width: 200px;
+}
+
+article {
+  float: right;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px navy;
+  border-radius: 5px;
+  width: 1000px;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 0px 0px 20px 0px;
+}
+.d0 {
+  margin: 30px 100px 0px 100px;
+  width: auto;
+}
+
+.d1 {
+  color: red;
+  font-weight: bold;
+}
+
+.d2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 265px;
+  height: 440px;
+  margin: 40px 30px 10px 35px;
+  float: left;
+}
+.d3 {
+  background-color: midnightblue;
+  border-radius: 3px;
+  color: white;
+  width: 980px;
+  height: 35px;
+  padding: 0px 0px 30px 20px;
+
+  float: left;
+}
+
+.d4 {
+  width: 90%;
+  height: auto;
+  margin: 10px 20px;
+  float: left;
+  padding: 10px 30px;
+}
+
+.d5 {
+  width: 255px;
+  float: left;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.d6 {
+  float: left;
+  width: 600px;
+  padding-top: 0;
+}
+footer {
+  background-color: navy;
+  color: white;
+  padding: 7px;
+  word-spacing: 2px;
+  text-align: right;
+  clear: both;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.a {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+.top-right {
+  position: absolute;
+  background-color: midnightblue;
+  width: 200px;
+  height: 10px;
+  top: 215px;
+  right: 0px;
+  padding: 10px 0px;
+  margin-right: 10px;
+}
+.top-right > a {
+  font-variant: small-caps;
+  color: white;
+  text-decoration: none;
+}
+.top-right > a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.top-right > a:visited {
+  color: lime;
+}
+.d4 > p {
+  font-size: large;
+  text-align: justify;
+}
+.d6 > a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 10px;
+  font-variant: small-caps;
+}
