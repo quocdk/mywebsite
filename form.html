@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đăng ký | THPT Tân Lập</title>
+    <link rel="stylesheet" type="text/css" href="Assignment.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="date"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: navy;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        float: right;
+        margin-left: 20px;
+      }
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background-color: #ccffff;
+        color: black;
+      }
+      .container {
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px navy;
+        background-color: white;
+        padding: 20px;
+        width: 800px;
+        margin-left: 360px;
+      }
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Hinh anh/logo va banner.png" width="100%" />
+    </header>
+    <nav class="menu">
+      <a href="home.html"> TRANG CHỦ</a> |
+      <a href="about.html"> GIỚI THIỆU</a> |
+      <a href="tuyensinh.html"> TUYỂN SINH</a> |
+      <a href="tintuc.html"> TIN TỨC</a> |
+      <a href="#5"> HỎI ĐÁP</a>
+      <div class="top-right">
+        <a href="#1"> ĐĂNG NHẬP</a> | <a href="form.html"> ĐĂNG KÍ</a> |
+      </div>
+    </nav>
+    <div style="text-align: center">
+      <h2>Đăng ký tài khoản</h2>
+    </div>
+
+    <div class="container">
+      <form>
+        <h3>Thông tin tài khoản</h3>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Tên đăng nhập</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="username" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Mật khẩu</label>
+          </div>
+          <div class="col-75">
+            <input type="password" name="password" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Nhập lại mật khẩu</label>
+          </div>
+          <div class="col-75">
+            <input type="password" name="password" />
+          </div>
+        </div>
+        <hr />
+        <h3>Thông tin cá nhân</h3>
+        <div class="row">
+          <div class="col-25">
+            <label>Họ tên</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="fullname" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Giới tính</label>
+          </div>
+          <div class="col-75">
+            <label><input type="radio" name="gender" checked />Nam</label>
+            <label><input type="radio" name="gender" />Nữ</label><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Ngày sinh</label>
+          </div>
+          <div class="col-75">
+            <input type="date" name="ngsinh" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="email" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Số điện thoại</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="sdt" />
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <input type="reset" value="Nhập lại" />
+          <input type="submit" value="Đăng ký" />
+        </div>
+      </form>
+    </div>
+    <footer>
+      Trường THPT Tân Lập<br />
+      Xã Tân Lập - Huyện Đan Phượng – Thành phố Hà Nội <br />
+      Số điện thoại: 02433662765 <br />
+      Email: c3tanlap@hanoiedu.vn
+    </footer>
+  </body>
+</html>
